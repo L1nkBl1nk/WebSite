@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+    <title>Reviews generator</title>
+
+    
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head> 
+<body>
+
+            <h1 id=zagolovok>
+            Reviews Generator
+            </h1>
+        <div id="main">
+
+
+
+        <div id="osnkvad">
+            <div class="form-control">
+            <label for="reveiw-length">Кол-во отзывов: </label>
+            <input type="number" id="reveiw-length" min="1" max="5" />
+        </div>
+            <div class="form-control">
+            <label for="polozh-otzivi">Положительные отзывы</label>
+            <input type="checkbox" id="polozh-otzivi" />
+        </div>
+
+        <div class="form-control">
+            <label for="otriz-otzivi">Отрицательные отзывы</label>
+            <input type="checkbox" id="otriz-otzivi" />
+        </div>
+        <button class="generate" id="generate">Сгенерировать</button>
+        
+
+        <div class="container">
+    
+
+        </div>
+        <button id = "clear" class = "clear" onclick="ClearReview()"> Очистить историю отзывов </div>
+
+        <div id="reviews">
+
+        </div>
+
+     </div> 
+    </div> 
+
+</div>
+</body>
+</html>
